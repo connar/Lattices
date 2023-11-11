@@ -49,3 +49,12 @@ This - making the multiplication between the vectors - would return the equation
 ![image](https://github.com/connar/Lattices/assets/87579399/85707428-e8f3-44de-a790-ce43f5ec64eb)
 
 So if we had given the matrix [[h, 1],[-q,0]] to LLL, we would get a solution vector which would be (g, f) - All that because we made the correct base matrix!
+
+
+
+To align what we just read with the README.md theory, we have:
+- base vectors: [h, 1] and [-q, 0]
+- One of the many linear combinations that is a solution to our matrix problem is the [g, f]. This happens to be the shortest one and is found by LLL algorithm which tries to solve the problem and returns the smallest solution (the smallest linear combination vector).
+
+A question that might arise is: *what can we do to find the -k variable?*
+This is also a common problem in problems like lattices for example, and is solved by the embedding method (see README.md for the theory)
