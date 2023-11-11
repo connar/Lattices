@@ -13,7 +13,7 @@ The vectors [a, 1] and [w, j] are basically the base of the Matrix.
 To solve problems using Matrixes, we want to make a specific Matrix base from some vectors we will choose, in order for the LLL algorithm (which we will see shortly) to return the smallest linear combination.
 
 # Why we use Matrixes to solve math problems?
-Matrixes try to solve some linear equation, for example: x = 5y + 13w --> find (x, y, w)
+Matrixes try to solve some linear equation, for example: x = 5y + 13w --> find (x, y, w).  
 Matrixes, given a correct base (i.e. choosing some vectors to be the base of the Matrix), try to solve an equation by finding a solution vector, where a solution vector is just one of the MANY linear combinations that solve the same problem. So how do we know what we are searching for?
 
 # LLL
@@ -23,3 +23,10 @@ Based on what unknown variables we want to reveal (find out), we make adjustment
 
 In other words, what is basically happening is that in the lattice that the given base vectors form, many solutions exist within it. Imagine like we construct a box in the 3D space, and within that box there are many vectors (lines) that solve a problem. Usually, we try to find the shortest vector that solves our problem.
 
+# Example
+The previous problem: x = 5y + 13w --> find (x, y, w)  could be solved for example with the following way  
+![image](https://github.com/connar/Lattices/assets/87579399/1c8c654b-642f-4035-868f-f2fe078b74aa)
+
+
+
+# Embedding method
