@@ -6,7 +6,7 @@ My notes on lattices for ctfs and understand in general:)
 Lattice is the number of all linear combinations that can solve a problem based on a given Matrix base.
 
 # What is a Matrix base?
-Assume the following Matrix:
+Assume the following Matrix:  
 ![image](https://github.com/connar/Lattices/assets/87579399/1a6d90bb-4876-4c94-839e-58fd48e14528)
 
 The vectors [a, 1] and [w, j] are basically the base of the Matrix.
