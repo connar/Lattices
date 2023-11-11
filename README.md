@@ -31,3 +31,4 @@ The previous problem: x = 5y + 13w --> find (x, y, w)  could be solved for examp
 
 
 # Embedding method
+In the Embedding method, we want to find variables such as unknown factors are are usually not present in the shortest vector we get back from LLL. In this case, we add more rows and columns in our base lattice before passing it to LLL, in order for these unknown factors to appear in the solution vector. See the Example2_EmbeddingMethod.md
