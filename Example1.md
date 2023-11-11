@@ -1,7 +1,7 @@
 # Example 1 - Simple use of lattice to recover some variables that are unknown but exist in some equation
 
 Assume the following problem:
-```
+```py
 def gen_key():
     q = getPrime(512)
     upper_bound = int(math.sqrt(q // 2))
