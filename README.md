@@ -17,7 +17,8 @@ Matrixes try to solve some linear equation, for example: x = 5y + 13w --> find (
 Matrixes, given a correct base (i.e. choosing some vectors to be the base of the Matrix), try to solve an equation by finding a solution vector, where a solution vector is just one of the MANY linear combinations that solve the same problem. So how do we know what we are searching for?
 
 # LLL
-Using the LLL algorithm, we try to solve the given equation problem by making an ideal Matrix. The LLL algorithm will then try and solve this problem. What the LLL will return will be (if we are lucky) the shortest vector that solves the problem. This is better known as SVP (Shortest Vector Problem).
+Using the LLL algorithm, we try to solve the given equation problem by making an ideal Matrix. The LLL algorithm will then try and solve this problem. What the LLL will return will be (if we are lucky) the shortest vector that solves the problem. This is better known as SVP (Shortest Vector Problem).  
+You might ask, if we have an equation like  g = h*j + v*k and we only know h and v, how will the LLL know what it is searching for (since we dont know g either)? Well, the LLL algorithm - given a matrix base - tries to make that matrix the most orthogonal it can get. It finds the j, k in the process (the other unknown factors) and returns to us the result which is the orthogonal base it made. We can also get the other unknown variables with a method known as embedding.
 
 Based on what unknown variables we want to reveal (find out), we make adjustments to the Matrix that we will give to LLL so the result that the LLL will return us will contain the variables we were searching for.
 
