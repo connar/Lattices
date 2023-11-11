@@ -30,7 +30,7 @@ return (q, h), (f, g)
 
 Assume that only (q,h) are known to us and we want to recover (f,g) which is the private key. How are we going to do that?
 Well, one easy way to recover them is by using lattices. How?
-Observe the equation:
-```diff
-- h = (inverse(f, q)*g) % q
-```
+Observe the equation:  
+h = (inverse(f, q)*g) % q  
+$ \Leftrightarrow $ h * $ f^-1 $
+
