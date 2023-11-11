@@ -1,6 +1,6 @@
-# Example 2 - A looking into the Hidden Number Problem (HNP) and the Embedding method
+# Example 2 - A looking into the Embedding method
 
-# HNP
+# Embedding method
 Assume the following code:
 ```py
 ...
