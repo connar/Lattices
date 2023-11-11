@@ -11,9 +11,9 @@ return e
 
 Also, assume that h and q are known. How do we find m?
 We can rewrite the equation of 'e' as:  
-e = (r*h + m) % q  
-$\Leftrightarrow$ e - r*h $\equiv$ m + k*q
-$\Leftrightarrow$ m = e - r*h - k*q
+e = (r * h + m) % q  
+$\Leftrightarrow$ e - r * h $\equiv$ m + k * q
+$\Leftrightarrow$ m = e - r * h - k * q
 
 We can construct a lattice basis like the following one:  
 ![image](https://github.com/connar/Lattices/assets/87579399/5cc61f12-05b8-4e28-a880-a4228e7782f8)
